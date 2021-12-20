@@ -1,0 +1,19 @@
+{
+  "name": "qatestsexample",
+  "version": "1.0.0",
+  "sideEffects": false,
+  "scripts": {
+    "build": "tsc",
+    "start": "tsc -w",
+    "test": "jest",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "typescript": "^4.5.4"
+  },
+  "devDependencies": {
+    "@types/jest": "^27.0.3",
+    "jest": "^27.4.5",
+    "ts-jest": "^27.1.2"
+  }
+}
