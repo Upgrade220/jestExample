@@ -27,4 +27,10 @@ describe('Calculate Types', function () {
 
         expect(result).toBe(CalcTypes.Division);
     })
+
+    it('Unknown', function () {
+        const result = calcType(a, b, 255);
+
+        expect(result).toBe(CalcTypes.Unknown);
+    })
 });
