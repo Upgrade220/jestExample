@@ -8,7 +8,7 @@ export enum CalcTypes {
 
 export function calcType(a: number, b: number, res: number): CalcTypes {
     const map: Record<number, CalcTypes> = {
-        [a + b]: CalcTypes.Unknown,
+        [a + b]: CalcTypes.Addition,
         [a - b]: CalcTypes.Subtraction,
         [a * b]: CalcTypes.Multiplication,
         [a / b]: CalcTypes.Division,
